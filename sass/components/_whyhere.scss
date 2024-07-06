@@ -1,0 +1,52 @@
+.whyhere{
+    &__list{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin: 0;
+        justify-content: space-between;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        @media (min-width: 768px) {
+            flex-direction: row;
+        }
+    }
+    &__item{
+        
+    }
+    &__title{
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -1.5px;
+        color: $base;
+        max-width: 400px;
+        margin: 0;
+        margin-bottom: 32px;
+
+    }
+    &__sublist{
+        max-width: 500px;
+        padding-left: 0;
+    }
+    &__subitem{
+        
+    }
+    &__description{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.4px;
+        color: $base; 
+    }
+    &__description2{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        color: $base;
+        padding-top: 24px;
+        margin: 0;
+    }
+}

@@ -1,0 +1,34 @@
+.galery{
+    &__title{
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -1.5px;
+        text-align: center;
+        color: $base;
+        margin: 0;
+        padding-bottom: 64px;
+        overflow-wrap: break-word;
+    }
+    &__list{
+        margin: 0 auto;
+        padding-left: 0;
+        text-align: center;
+    }
+    &__item{
+        
+    }
+    &__image{
+        
+    }
+    &__item-description{
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 33.6px;
+        color: $base;
+        text-align: left;
+    }
+
+}

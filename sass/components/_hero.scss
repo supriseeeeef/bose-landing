@@ -1,0 +1,55 @@
+.main{
+
+}
+
+.hero{
+    &__title {
+        text-align: center;
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -1.5px;
+        color: $base;
+        padding: 120px 0 64px 0;
+        margin: 0;
+        overflow-wrap: break-word;
+    }
+    &__list{
+        flex-wrap: wrap;
+        display: flex;
+        gap: 8%;
+        justify-content: center;
+        padding-bottom: 120px;
+        margin: 0;
+        padding-left: 0;
+    }
+    &__item{
+        
+    }
+    &__image{
+        width: 100%;
+        max-width: 320px; 
+    }
+    &__device-name{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.4px;
+        color: $base;
+    }
+    &__device-description{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: $base;
+    }
+    &__device-cost{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.4px;
+        color: $base; 
+    }
+}

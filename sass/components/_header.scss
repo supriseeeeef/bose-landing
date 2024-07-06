@@ -1,0 +1,39 @@
+.background {
+	background-image: url(../image/headerbackground.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.header{
+ &__list{
+    margin: 0;
+    padding-left: 0;
+    padding-top: 64px;
+    padding-bottom: 356px;
+    display: flex;
+    justify-content: space-between;
+ }
+ &__item{
+
+ }
+ &__image{
+
+ }
+ &__sound{
+
+ }
+ &__title{
+    font-family: Inter;
+    font-size: 48px;
+    max-width: 498px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+    color: $base;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 64px;
+ }
+}
