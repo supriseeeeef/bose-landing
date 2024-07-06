@@ -4,7 +4,7 @@
 }
 
 .background {
-  background-image: url(../image/headerbackground.jpg);
+  background-image: url(../img/headerbackground.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -174,7 +174,7 @@
   height: 460px;
 }
 .footer__background {
-  background-image: url("../image/footer.jpg");
+  background-image: url("../img/footer.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
