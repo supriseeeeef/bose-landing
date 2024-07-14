@@ -20,7 +20,15 @@
         
     }
     &__image{
-        
+        @media (max-width: 720px) {
+            width: 130px;
+            height: 130px;
+        }
+    
+        @media (min-width: 721px) and (max-width: 1125px) {
+            width: 300px;
+            height: 200px;
+        }
     }
     &__item-description{
         font-family: Inter;

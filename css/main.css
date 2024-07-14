@@ -3,6 +3,11 @@
   width: 90%;
 }
 
+@media (min-width: 1800px) {
+  .container {
+    width: 1800px;
+  }
+}
 .background {
   background-image: url(../img/headerbackground.jpg);
   background-size: cover;
@@ -104,6 +109,18 @@
   margin: 0 auto;
   padding-left: 0;
   text-align: center;
+}
+@media (max-width: 720px) {
+  .galery__image {
+    width: 130px;
+    height: 130px;
+  }
+}
+@media (min-width: 721px) and (max-width: 1125px) {
+  .galery__image {
+    width: 300px;
+    height: 200px;
+  }
 }
 .galery__item-description {
   font-family: Inter;
